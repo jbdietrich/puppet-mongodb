@@ -2,10 +2,10 @@ require 'formula'
 
 class Mongodb < Formula
   homepage "http://www.mongodb.org/"
-  url "http://downloads.mongodb.org/src/mongodb-src-r2.6.1.tar.gz"
-  sha1 "3e069329e93a45f14bb86618eceea08d376dbc82"
+  url "http://downloads.mongodb.org/src/mongodb-src-r2.6.5.tar.gz"
+  sha1 "f5a68505a0de1152b534d62a8f0147d258d503a0"
 
-  version '2.6.1-boxen1'
+  version '2.6.5-boxen1'
 
   bottle do
     sha1 "1c7b447ae2077b9efeaee2aa2c2474dc6b19ab6f" => :mavericks
